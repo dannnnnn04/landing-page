@@ -24,6 +24,7 @@ body {
 
 .logo {
     font-size: 24px;
+    font-weight: 800;
 }
 
 .logo, .hero-main-text {
@@ -70,5 +71,34 @@ ul {
     margin: 0;
     padding: 0;
     gap: 16px
+}
+
+.info-header-text {
+
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.info .text {
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
 }
 
