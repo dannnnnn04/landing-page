@@ -22,6 +22,7 @@ body {
 
 .hero-main-text {
     font-size: 48px;
+    font-weight: 800;
 }
 
 .logo {
@@ -58,7 +59,7 @@ a {
 }
 
 .placeholder-text {
-    background: #aaa;
+    background: #6d747d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,24 +128,25 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 32px;
+    padding: 64px;
 }
 
 .quote-container {
-    width: 480px;
+    width: 750px;
     padding: 16px;
 }
 
 .quote-text {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    color: #313b48;
 }
 
 .quote-by {
     display: flex;
     justify-content: flex-end;
     font-weight: 800;
+    font-size: 18px;
 }
 
 .call-to-action-section {
