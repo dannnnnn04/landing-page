@@ -140,3 +140,36 @@ img {
     font-weight: 800;
 }
 
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+
+.modal {
+    display: flex;
+    justify-content: space-around;
+    background: #3882F6;
+    border-radius: 10px;
+    /* box-shadow: 2px 4px 16px rgba(0,0,0,.2); */
+    padding: 32px;
+    width: 800px;
+
+}
+
+.call-to-action-header {
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.modal .text {
+    color: #E5E7EB;
+}
+
+.modal .sign-up {
+    border: 1px solid #ddd;
+    padding: 0px 48px;
+}
+
