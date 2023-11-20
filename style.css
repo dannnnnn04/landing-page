@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -91,6 +92,8 @@ ul {
     display: flex;
     justify-content: center;
     gap: 52px;
+    margin-bottom: 72px;
+
 }
 
 .info {
@@ -100,5 +103,30 @@ ul {
 img {
     width: 100px;
     height: 100px;
+}
+
+.quote-section {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.quote-container {
+    width: 480px;
+    padding: 16px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-by {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 800;
 }
 
